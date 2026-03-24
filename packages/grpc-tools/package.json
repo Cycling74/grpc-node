@@ -1,5 +1,5 @@
 {
-  "name": "grpc-tools",
+  "name": "@cycling74/grpc-tools",
   "version": "1.13.1",
   "author": "Google Inc.",
   "description": "Tools for developing with gRPC on Node.js",
@@ -8,7 +8,6 @@
     "type": "git",
     "url": "https://github.com/grpc/grpc-node.git"
   },
-  "bugs": "https://github.com/grpc/grpc-node/issues",
   "contributors": [
     {
       "name": "Michael Lumish",
@@ -29,7 +28,7 @@
   "binary": {
     "module_name": "grpc_tools",
     "host": "https://node-precompiled-binaries.grpc.io/",
-    "remote_path": "{name}/v{version}",
+    "remote_path": "grpc-tools/v{version}",
     "package_name": "{platform}-{arch}.tar.gz",
     "module_path": "bin"
   },
